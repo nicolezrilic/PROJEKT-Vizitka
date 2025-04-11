@@ -5,12 +5,125 @@ html { box-sizing: border-box; }
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
-červená na hlavní nadpis:  #d63031
+červená na hlavní nadpis:     #d63031
 
-tlačítko Twitter:					 #1da1f2
+tlačítko Twitter:		    #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
 
-tlačítko Facebook:				 #3b5998
+tlačítko Facebook:	        #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+* {box-sizing: border-box; }
+
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  background-color: #b2bec3;
+}
+
+.odstavec1 {
+  margin-top: 0;
+}
+
+.odstavec2 {
+  margin-bottom: 0;
+}
+
+.obsah {
+  padding: 0 30px;
+}
+
+.vizitka {
+  position: relative;
+  width: 550px;
+  background-color: white;
+  margin: 150px auto;
+  font-size: 18px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.hlavicka {
+  position: relative;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: auto;
+  border: 3px solid white;
+  position: absolute;
+  top: -55px;
+  right: -55px;
+}
+
+.jmeno {
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #d63031;
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+
+.tlacitko {
+  display: inline-block;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 490px;
+}
+
+.twitter {
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: #1da1f2;
+  margin: 30px 30px 5px 30px;
+}
+
+.facebook {
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: #3b5998;
+  margin: 0 30px 30px 30px;
+}
+
+a.twitter:hover,
+a.twitter:focus,
+a.twitter:active {
+    background-color: #0b7bc1;
+    margin-bottom: 5px;
+}
+
+a.facebook:hover,
+a.facebook:focus,
+a.facebook:active {
+    background-color: #2b406e;
+}
+
+
+
+
+/*
+.nunito-<uniquifier> {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } 
+    
+  .nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  */
